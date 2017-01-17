@@ -1,5 +1,15 @@
 # Elixir in Acton - Chapter 1
 
+Masatoshi Nishiguchi
+
+Reading this chapter, I want to learn more about Elixir.
+Among other amazing things, I was intrigued that Erlang and Elixir alone can play
+many different roles in server systems.
+As a newbie in web development, I could take advantage of that multi-tasking
+nature of Erlang and Elixir for me to deepen my understanding of web-related technologies.
+
+---
+
 ## About Erlang
 A development platform that allows us to build constantly-available, reliable and responsive system.
 
@@ -54,4 +64,4 @@ most of Elixir is written in Elixir.
 - more readable
 - less boilerplate
 - macro - Elixir code that runs at compile time
-- makes functional programming easier with small, reusable and composable functions. 
+- makes functional programming easier with small, reusable and composable functions
