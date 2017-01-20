@@ -1,12 +1,14 @@
 # Elixir in Acton - Chapter 1
 
-Masatoshi Nishiguchi
+#### Thoughts after reading this chapter
 
 Reading this chapter, I want to learn more about Elixir.
 Among other amazing things, I was intrigued that Erlang and Elixir alone can play
 many different roles in server systems.
 As a newbie in web development, I could take advantage of that multi-tasking
 nature of Erlang and Elixir for me to deepen my understanding of web-related technologies.
+
+\- Masatoshi Nishiguchi
 
 ---
 
