@@ -264,6 +264,11 @@ This is a heredoc.
 # "Hello world"
 ```
 
+```elixir
+iex(11)> "hello" <> <<0>>
+<<104, 101, 108, 108, 111, 0>>
+```
+
 #### Char lists (`'single-quote string'`)
 - Most of the operations from the String module do not work with char lists.
 - Some functions may only work with char lists.
@@ -315,7 +320,7 @@ new_list = [:new_element | a_list]      # This is a O(1) complexity
   1. An integer in the range of 0 to 255
   2. A binary
   3. An IO list
-- Appeinding to an IO list is O(1) because we can use nesting
+- Appending to an IO list is O(1) because we can use nesting
 
 ### Map
 - Key-value store, like Ruby hash
@@ -331,6 +336,15 @@ masa["hello"] # nil
 # Updating a map
 %{masa | "name" => "Masatoshi Nishiguchi"} # an existing key
 Map.put(masa, "state", "DC")               # a non-existent key
+```
+
+```elixir
+iex(14)> map = %{data: %{id: 1, admin: :true}}
+%{data: %{admin: true, id: 1}}
+
+# Updating at the specified path
+iex(15)> put_in(map, [:data, :admin], :false)
+%{data: %{admin: false, id: 1}}
 ```
 
 #### Hashsets
