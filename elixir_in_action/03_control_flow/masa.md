@@ -72,7 +72,7 @@ iex(37)> a
 65
 ```
 
-#### Matching the beginneing of the string
+#### Matching part of the string
 
 ```elixir
 iex(42)> command = "ping www.google.com"
@@ -81,6 +81,15 @@ iex(43)> "ping " <> url = command
 "ping www.google.com"
 iex(44)> url
 "www.google.com"
+```
+
+```elixir
+iex(1)> url = "https://somedomain.com/some_entity/12345"
+"https://somedomain.com/some_entity/12345"
+iex(2)> "https://somedomain.com/some_entity/" <> entity_id = url
+"https://somedomain.com/some_entity/12345"
+iex(3)> entity_id
+"12345"
 ```
 
 ---
@@ -96,7 +105,7 @@ number < atom < reference < fun < port < pid < tuple < map < list < bitstring(bi
 
 ---
 
-## Guard expressions
+## [Guard expressions](https://hexdocs.pm/elixir/master/guards.html)
 - logical expressions that place further conditions on a clause.
 - Only limited number of operators and functions are allowed in guards
   + `==`, `<`, `>`, etc
@@ -108,6 +117,7 @@ number < atom < reference < fun < port < pid < tuple < map < list < bitstring(bi
   + `abs/1`, `elem/2`, `hd/1`, `length/1`, `map_size/1`, etc
 - If an error is raised from inside a guard, that guard expression will return `false`
 - Can define a default clause that always matches
+- [Using Functions in Elixir Guard Clauses](http://keathley.io/2016/04/09/elixir-guard-clauses.html)
 
 ```elixir
 # A named multi-clause function with guard expressions
@@ -147,6 +157,28 @@ iex(34)> test_number_fun.(-1)
 :negative
 iex(35)> test_number_fun.("Hello")
 {:error, :invalid_input}
+```
+
+#### Custom guard expressions
+- [Defining custom guard expressions](https://hexdocs.pm/elixir/master/guards.html#defining-custom-guard-expressions)
+
+```elixir
+defmodule MyInteger do
+  defmacro is_even(number) do
+    quote do
+      is_integer(unquote(number)) and rem(unquote(number), 2) == 0
+    end
+  end
+end
+```
+
+```elixir
+import MyInteger, only: [is_even: 1]
+
+def my_function(number) when is_even(number) do
+  # do stuff
+end
+end
 ```
 
 ---

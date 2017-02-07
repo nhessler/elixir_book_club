@@ -144,6 +144,11 @@ my_calc = &(&1 * &2 + &3) # shorthand
 my_calc.(2,3,4) # 10
 ```
 
+```elixir
+acc_fun = fn(entry, todo_list_acc) -> add_entry(todo_list_acc, entry) end
+acc_fun = &add_entry(&2, &1)   # shorthand
+```
+
 ---
 
 ## Macros
