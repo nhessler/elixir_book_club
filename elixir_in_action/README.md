@@ -18,7 +18,7 @@ Mondays @ 7:00pm via Google Hangouts
 
 * Chris
 * Hugo
-* Lee
+* Lee - [Exercises](https://github.com/leesharma/elixir_in_action)
 * Masatoshi
 * Michael
 * Nathan
