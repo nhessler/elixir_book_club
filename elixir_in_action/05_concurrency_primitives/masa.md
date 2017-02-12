@@ -1,4 +1,8 @@
 # Elixir in Acton - Chapter 5 - Concurrency primitives
+- Basic concurrency techniques
+- The idea behind stateful server processes
+
+---
 
 ## BEAM (virtual machine)
 - Runs in a single OS process

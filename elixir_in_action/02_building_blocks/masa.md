@@ -1,4 +1,4 @@
-# Elixir in Acton - Chapter 2 - Building blocks
+# Elixir in Action - Chapter 2 - Building blocks
 
 ## Elixir runtime
 - An OS process (the BEAM instance), where everything in our Elixir program runs

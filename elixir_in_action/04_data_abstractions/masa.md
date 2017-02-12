@@ -1,4 +1,4 @@
-# Elixir in Acton - Chapter 4 - Data abstraction
+# Elixir in Action - Chapter 4 - Data abstraction
 
 - Polymorphism can be implemented with protocols.
 - A protocol defines an interface that is used by the generic logic
