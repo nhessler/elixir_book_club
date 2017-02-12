@@ -1,4 +1,4 @@
-# Elixir in Acton - Chapter 1
+# Elixir in Action - Chapter 1
 
 #### Thoughts after reading this chapter
 

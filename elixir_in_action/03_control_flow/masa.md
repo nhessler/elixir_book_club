@@ -1,4 +1,4 @@
-# Elixir in Acton - Chapter 3 - Control flow
+# Elixir in Action - Chapter 3 - Control flow
 
 ## Pattern-matching basic techniques
 - `pattern = expression`
