@@ -21,7 +21,7 @@ Mondays @ 7:00pm via Google Hangouts
 * Lee - [Exercises](https://github.com/leesharma/elixir_in_action)
 * Masatoshi - [Exercises](https://github.com/mnishiguchi/elixir_practice)
 * Michael
-* Nathan
+* Nathan - [TodoList](https://github.com/nhessler/elixir_in_action_todo_list)
 * Nazar
 * Rick
 
