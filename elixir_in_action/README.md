@@ -18,30 +18,30 @@ Mondays @ 7:00pm via Google Hangouts
 
 * Chris
 * Hugo
-* Lee
-* Masatoshi
+* Lee - [Exercises](https://github.com/leesharma/elixir_in_action)
+* Masatoshi - [elixir_todo](https://github.com/mnishiguchi/elixir_todo)
 * Michael
-* Nathan
+* Nathan - [TodoList](https://github.com/nhessler/elixir_in_action_todo_list)
 * Nazar
 * Rick
 
 ## Tentative Schedule
 
-| Chapter                             | Leader    | Date   |
-|-------------------------------------|-----------|--------|
-|  [1: First steps]                   | Anarchy!  | Jan 17 |
-|  [2: Building blocks]               | Chris     | Jan 24 |
-|  [3: Control flow]                  | Hugo      | Jan 31 |
-|  [4: Data abstractions]             | Lee       | Feb 07 |
-|  [5: Concurrency primitives]        | Masatoshi | Feb 14 |
-|  [6: Generic server processes]      | Michael   | Feb 21 |
-|  [7: Building a concurrent system]  | Nathan    | Feb 28 |
-|  [8: Fault-tolerance basics]        | Nazar     | Mar 07 |
-|  [9: Isolating error effects]       | Rick      | Mar 14 |
-| [10: Sharing state]                 | Chris     | Mar 21 |
-| [11: Working with components]       | Hugo      | Mar 28 |
-| [12: Building a distributed system] | Lee       | Apr 04 |
-| [13: Running the system]            | Masatoshi | Apr 11 |
+| Chapter                             | Leader   | Date   |
+|-------------------------------------|----------|--------|
+|  [1: First steps]                   | Anarchy! | Jan 16 |
+|  [2: Building blocks]               | Chris    | Jan 23 |
+|  [3: Control flow]                  | Hugo     | Jan 30 |
+|  [4: Data abstractions]             | Lee      | Feb 06 |
+|  [5: Concurrency primitives]        | Masa     | Feb 13 |
+|  [6: Generic server processes]      | Michael  | Feb 20 |
+|  [7: Building a concurrent system]  | Nathan   | Feb 27 |
+|  [8: Fault-tolerance basics]        | Hugo     | Mar 06 |
+|  [9: Isolating error effects]       | Chris    | Mar 13 |
+| [10: Sharing state]                 | Lee      | Mar 20 |
+| [11: Working with components]       | Masa     | Mar 27 |
+| [12: Building a distributed system] | Michael  | Apr 03 |
+| [13: Running the system]            | Nathan   | Apr 10 |
 
 [1: First steps]: 01_first_steps
 [2: Building blocks]: 02_building_blocks
