@@ -27,21 +27,21 @@ Mondays @ 7:00pm via Google Hangouts
 
 ## Tentative Schedule
 
-| Chapter                             | Leader    | Date   |
-|-------------------------------------|-----------|--------|
-|  [1: First steps]                   | Anarchy!  | Jan 16 |
-|  [2: Building blocks]               | Chris     | Jan 23 |
-|  [3: Control flow]                  | Hugo      | Jan 30 |
-|  [4: Data abstractions]             | Lee       | Feb 06 |
-|  [5: Concurrency primitives]        | Masatoshi | Feb 13 |
-|  [6: Generic server processes]      | Michael   | Feb 20 |
-|  [7: Building a concurrent system]  | Nathan    | Feb 27 |
-|  [8: Fault-tolerance basics]        | Nazar     | Mar 06 |
-|  [9: Isolating error effects]       | Rick      | Mar 13 |
-| [10: Sharing state]                 | Chris     | Mar 20 |
-| [11: Working with components]       | Hugo      | Mar 27 |
-| [12: Building a distributed system] | Lee       | Apr 03 |
-| [13: Running the system]            | Masatoshi | Apr 10 |
+| Chapter                             | Leader   | Date   |
+|-------------------------------------|----------|--------|
+|  [1: First steps]                   | Anarchy! | Jan 16 |
+|  [2: Building blocks]               | Chris    | Jan 23 |
+|  [3: Control flow]                  | Hugo     | Jan 30 |
+|  [4: Data abstractions]             | Lee      | Feb 06 |
+|  [5: Concurrency primitives]        | Masa     | Feb 13 |
+|  [6: Generic server processes]      | Michael  | Feb 20 |
+|  [7: Building a concurrent system]  | Nathan   | Feb 27 |
+|  [8: Fault-tolerance basics]        | Hugo     | Mar 06 |
+|  [9: Isolating error effects]       | Chris    | Mar 13 |
+| [10: Sharing state]                 | Lee      | Mar 20 |
+| [11: Working with components]       | Masa     | Mar 27 |
+| [12: Building a distributed system] | Michael  | Apr 03 |
+| [13: Running the system]            | Nathan   | Apr 10 |
 
 [1: First steps]: 01_first_steps
 [2: Building blocks]: 02_building_blocks
