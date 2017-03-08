@@ -199,3 +199,19 @@ Todo.Server N -------------------> |________________| ---------> worker c ------
 - promote system responsiveness by not blocking the client process.
 - The clients may overload the server
 - requests may pile up in the message box and consume memory.
+
+---
+
+```
+            clients (many)
+         /                  \
+        |                    |
+        V                    V
+Todo.Cache (one) --------> Todo.Server (many)
+                             |
+                             V
+                           Todo.Database (one)
+                             |
+                             V
+                           Todo.DatabaseWorker (many)
+```
