@@ -38,10 +38,11 @@ Mondays @ 7:00pm via Google Hangouts
 |  [7: Building a concurrent system]  | Nathan   | Feb 27 |
 |  [8: Fault-tolerance basics]        | Hugo     | Mar 06 |
 |  [9: Isolating error effects]       | Chris    | Mar 13 |
-| [10: Sharing state]                 | Lee      | Mar 20 |
-| [11: Working with components]       | Masa     | Mar 27 |
-| [12: Building a distributed system] | Michael  | Apr 03 |
-| [13: Running the system]            | Nathan   | Apr 10 |
+|  Review/Catch Up Week               | n/a      | Mar 20 |
+| [10: Sharing state]                 | Lee      | Mar 27 |
+| [11: Working with components]       | Masa     | Apr 03 |
+| [12: Building a distributed system] | Michael  | Apr 10 |
+| [13: Running the system]            | Nathan   | Apr 17 |
 
 [1: First steps]: 01_first_steps
 [2: Building blocks]: 02_building_blocks
