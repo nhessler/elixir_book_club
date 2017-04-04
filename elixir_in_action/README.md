@@ -27,22 +27,23 @@ Mondays @ 7:00pm via Google Hangouts
 
 ## Tentative Schedule
 
-| Chapter                             | Leader   | Date   |
-|-------------------------------------|----------|--------|
-|  [1: First steps]                   | Anarchy! | Jan 16 |
-|  [2: Building blocks]               | Chris    | Jan 23 |
-|  [3: Control flow]                  | Hugo     | Jan 30 |
-|  [4: Data abstractions]             | Lee      | Feb 06 |
-|  [5: Concurrency primitives]        | Masa     | Feb 13 |
-|  [6: Generic server processes]      | Michael  | Feb 20 |
-|  [7: Building a concurrent system]  | Nathan   | Feb 27 |
-|  [8: Fault-tolerance basics]        | Hugo     | Mar 06 |
-|  [9: Isolating error effects]       | Chris    | Mar 13 |
-|  Review/Catch Up Week               | n/a      | Mar 20 |
-| [10: Sharing state]                 | Lee      | Mar 27 |
-| [11: Working with components]       | Masa     | Apr 03 |
-| [12: Building a distributed system] | Michael  | Apr 10 |
-| [13: Running the system]            | Nathan   | Apr 17 |
+| Chapter                                             | Leader   | Date   |
+|-----------------------------------------------------|----------|--------|
+|  [1: First steps]                                   | Anarchy! | Jan 16 |
+|  [2: Building blocks]                               | Chris    | Jan 23 |
+|  [3: Control flow]                                  | Hugo     | Jan 30 |
+|  [4: Data abstractions]                             | Lee      | Feb 06 |
+|  [5: Concurrency primitives]                        | Masa     | Feb 13 |
+|  [6: Generic server processes]                      | Michael  | Feb 20 |
+|  [7: Building a concurrent system]                  | Nathan   | Feb 27 |
+|  [8: Fault-tolerance basics]                        | Hugo     | Mar 06 |
+|  [9: Isolating error effects]                       | Chris    | Mar 13 |
+|  Review/Catch Up Week                               | n/a      | Mar 20 |
+| [10: Sharing state]                                 | Lee      | Mar 27 |
+| [11: Working with components]                       | Masa     | Apr 03 |
+| [12: Building a distributed system] *(up to 12.2)*  | Michael  | Apr 10 |
+| [12: Building a distributed system] *(remainder)*   | Nathan   | Apr 17 |
+| [13: Running the system]                            | Chris    | Apr 24 |
 
 [1: First steps]: 01_first_steps
 [2: Building blocks]: 02_building_blocks
